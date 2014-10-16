@@ -1,22 +1,18 @@
 {
-    "name": "netzach/recaptcha-bundle",
-    "description": "This bundle provides easy reCAPTCHA form field integration",
-    "keywords": ["recaptcha"],
-    "homepage": "https://github.com/excelwebzone/EWZRecaptchaBundle",
+    "name": "netzach/php-gracenote",
+    "description": "A PHP client for the Gracenote Music Web API. Example code to get you started on your own projects using Gracenote's API. https://developer.gracenote.com/",
+    "keywords": ["gracenote"],
+    "homepage": "https://github.com/EnoahNetzach/php-gracenote",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael H. Arieli",
-            "email": "excelwebzone@gmail.com",
-            "homepage": "http://excelwebzone.com/"
+            "name": "Enoah Netzach",
+            "email": "enoahnetzach@gmail.com"
         }
     ],
-    "require": {
-        "symfony/framework-bundle": "~2.4"
-    },
     "autoload": {
-        "psr-0": { "EWZ\\Bundle\\RecaptchaBundle\\": "" }
+        "psr-0": { "Netzach\\Bundle\\GracenoteBundle\\": "" }
     },
-    "target-dir": "EWZ/Bundle/RecaptchaBundle"
+    "target-dir": "Netzach/Bundle/GracenoteBundle"
 }
