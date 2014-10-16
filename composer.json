@@ -12,6 +12,6 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Gracenote\\WebAPI\\": "php-gracenote/" }
+        "psr-0": { "Gracenote\\WebAPI\\": "" }
     }
 }
