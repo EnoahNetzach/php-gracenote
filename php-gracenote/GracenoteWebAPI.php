@@ -6,10 +6,6 @@ namespace Gracenote\WebAPI;
 // Defaults
 if (!defined("GN_DEBUG")) { define("GN_DEBUG", false); }
 
-// Dependencies
-include(dirname( __FILE__ )."/GracenoteError.class.php");
-include(dirname( __FILE__ )."/HTTP.class.php");
-
 class GracenoteWebAPI
 {
     // Constants
